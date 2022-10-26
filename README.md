@@ -38,7 +38,7 @@
     - использована permutation importance 
       на основе градиентного бустинга и логистической регрессии
       
-    в ноутбуке
+    в ноутбуке experiments_naming_classification.ipynb
 
 4) Обучена модель классификации:
 
@@ -53,7 +53,7 @@
 | f1-score weighted avg | 0.99 | 0.99 |
 | AUC | 0.51 | 0.51 |
 
-   в ноутбуке
+   в ноутбуке experiments_naming_classification.ipynb
 
 5) Решение задачи ранжирования:
 
