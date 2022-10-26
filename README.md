@@ -21,7 +21,7 @@
      'открытое акционерное общество' etc
    - удаление ltd., LLC etc usin CLEANCO
    
-   в ноутбуке 
+   в ноутбуке preproc_naming_classification.ipynb
    
 2) Далее были созданы новые фичи, например такие как:
 
@@ -31,7 +31,7 @@
    - Jaro Similarity
    - и др.
     
-    в ноутбуке
+    в ноутбуке preproc_naming_classification.ipynb
 
 3) Произведены ксперименты по отбору фичей:
 
