@@ -1,7 +1,7 @@
 # ITMO_DL_in_practice_02
 Курс "Глубокое обучение на практике" (Project_02)
 
-# company names matching
+# Company names matching
 
 # Задачи проекта:
 
@@ -15,8 +15,8 @@
 
 1) Подготовка данных:
 
-   - low register
-   - transliteration
+   - нижний регистр
+   - транслитерация
    - удаление "ООО", "ОАО", 'общество с ограниченной ответственностью',
      'открытое акционерное общество' etc
    - удаление ltd., LLC etc с использованием CLEANCO
@@ -42,7 +42,7 @@
 
 4) Обучена модель классификации:
 
-Таблица: Метрики: 
+Метрики: 
 | Metric\Model | GradientBoostingClassifier | LogisticRegression|
 |--|--|--|
 | precision macro avg | 0.61 | 0.83 |
@@ -64,12 +64,12 @@
     
     в ноутбуке W2V_FastText_ITMO.ipynb
     
-Таблица: Скорость обработки CPU:
+Скорость обработки CPU:
 | Model | word2vec | FastText |
 |--|--|--|
 | -- | 3 µs | 5 µs |
 
 ## Команда 9.
 
-#### Вопросы telegram @dum_ai
+Вопросы telegram @dum_ai
 
