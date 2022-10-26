@@ -41,11 +41,18 @@
 4) Обучена модель классификации:
 
 Таблица: Метрики: 
-| Method\Model | distiluse-base-multilingual-cased-v2 | all-MiniLM-L6-v2 | all-MiniLM-L12-v2 | paraphrase-MiniLM-L6-v2 | paraphrase-MiniLM-L12-v2 | all-mpnet-base-v2 |
-|--|--|--|--|--|--|--|
-| Qdrant + Not Preprocessed | 0.3256 | 0.5746 | 0.5860 | 0.5817 | 0.5839 | 0.5394 |
-| Qdrant + Preprocessed | 0.4569 | 0.6183 | 0.6233 | 0.621 | 0.6162 | 0.6040 |
-| Qdrant + Quanterion Preprocessed | 0.5633 | 0.6205 | 0.6233 | 0.62489 | 0.6133 | 0.6043 |
+| Metric\Model | GradientBoostingClassifier | LogisticRegression|
+|--|--|--|
+| precision macro avg | 0.61 | 0.83 |
+| precision weighted avg | 0.99 | 0.99 |
+| recall macro avg | 0.68 | 0.61 |
+| recall weighted avg | 0.99 | 0.99 |
+| f1-score macro avg | 0.64 | 0.67 |
+| f1-score weighted avg | 0.99 | 0.99 |
+| AUC | 0.51 | 0.51 |
+
+![image](https://user-images.githubusercontent.com/60104674/198106275-b3b083a2-4217-48dc-a982-cb19b30045c9.png)
+
 
 5) Решение задачи ранжирования:
 
