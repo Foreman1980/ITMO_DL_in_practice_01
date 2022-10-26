@@ -40,7 +40,7 @@
 
 4) Обучена модель классификации:
 
-Таблица метрик. 
+Таблица: Метрики: 
 | Method\Model | distiluse-base-multilingual-cased-v2 | all-MiniLM-L6-v2 | all-MiniLM-L12-v2 | paraphrase-MiniLM-L6-v2 | paraphrase-MiniLM-L12-v2 | all-mpnet-base-v2 |
 |--|--|--|--|--|--|--|
 | Qdrant + Not Preprocessed | 0.3256 | 0.5746 | 0.5860 | 0.5817 | 0.5839 | 0.5394 |
@@ -54,8 +54,8 @@
     
     Для решения проблемы долгого поиска соседей была использована библиотека ANNOY, что существенно оптимизировало поиск, без проблем возможно    масштабирование проекта.
     
-    Скорость обработки CPU:
-    | Model | word2vec | FastText |
+Таблица: Скорость обработки CPU:
+| Model | word2vec | FastText |
 |--|--|--|
 | -- | 3 µs | 5 µs |
 
