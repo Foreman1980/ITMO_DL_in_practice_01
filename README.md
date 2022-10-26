@@ -51,9 +51,6 @@
 | f1-score weighted avg | 0.99 | 0.99 |
 | AUC | 0.51 | 0.51 |
 
-![image](https://user-images.githubusercontent.com/60104674/198106275-b3b083a2-4217-48dc-a982-cb19b30045c9.png)
-
-
 5) Решение задачи ранжирования:
 
     Для этой задачи были использованы эмбеддинги, построенные на Word2Vec и FastText.
