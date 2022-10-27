@@ -43,7 +43,7 @@
 4) Обучена модель классификации:
 
 Метрики: 
-| Metric\Model | GradientBoostingClassifier | LogisticRegression|
+| Metric\Model | GradientBoosting | LogisticRegression|
 |--|--|--|
 | precision macro avg | 0.61 | 0.83 |
 | precision weighted avg | 0.99 | 0.99 |
