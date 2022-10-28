@@ -69,6 +69,10 @@ _Ноутбуки воспроизводимые, данные подгружа�
 |--|--|--|
 | Time | 3 µs | 5 µs |
 
+![Пример выдачи модели word2vec](https://4.downloader.disk.yandex.ru/preview/3b655d3df1b36667a69e96faad168947551ec47a31afa08ca12c1383048c9590/inf/ssyVkiXZ-H6tQ2S_PNmZMl7-2F0py_sqP0pp3mrDmilT7YPZvoF63g5WX4utgkXSBKpZx0TmizLCqP8OLIrz5g%3D%3D?uid=6709741&filename=Screen%20Shot%202022-10-28%20at%202.23.46%20PM.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=6709741&tknv=v2&size=3360x1712)
+
+   
+
 ## Команда 9.
 
 Вопросы telegram @dum_ai
