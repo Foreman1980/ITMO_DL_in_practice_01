@@ -1,9 +1,6 @@
 import re
 import unicodedata
 
-import numpy as np
-import pandas as pd
-
 from cleanco import basename
 from transliterate.decorators import transliterate_function
 
@@ -38,9 +35,3 @@ def preprocessing(x: str) -> str:
     x = re.sub(r'[^\w\s]', ' ', x)
 
     return ' '.join([s for s in x.split()]) if len(x.split()) != 0 else '-' * 5
-
-if __name__ == '__main__':
-    df = pd.read_csv('./Source/train.csv', index_col='pair_id')
-    # print(df.head())
-    
-
