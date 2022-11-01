@@ -15,10 +15,10 @@ def preprocess(path: str) -> None:
 
 if __name__ == '__main__':
     # Путь для загрузки начальных данных из облака:
-    # path = 'https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/6YzocVnWPIP1KQ'
+    path = 'https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/6YzocVnWPIP1KQ'
 
     # Путь для загрузки начальных данных размещённых локально в каталог проекта по указанному пути:
-    path = './Source/train.csv'
+    # path = './Source/train.csv'
 
     preprocess(path)
     df = pd.read_csv('./Source/preprocessed.csv')
